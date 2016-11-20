@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv sh
+
+for i in `seq 1 10`
+do
+	echo "$ECHO_STR$i"
+	sleep 5
+done

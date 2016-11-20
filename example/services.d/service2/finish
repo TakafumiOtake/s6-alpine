@@ -1,0 +1,4 @@
+#! /bin/sh
+
+echo "service2 is finished"
+s6-svscanctl -t /var/run/s6/services
